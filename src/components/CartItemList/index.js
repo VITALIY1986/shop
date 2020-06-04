@@ -49,7 +49,7 @@ export default ({items, removeFromCart, loading, completed}) => {
         childKey: id,
         header: (
           <Item.Header>
-            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form name="contact" method="post" data-netlify="true"  data-netlify="true">
       <input type={quantity} name={quantity} value={price} />
       <div>
         <label>Your Email:</label>
